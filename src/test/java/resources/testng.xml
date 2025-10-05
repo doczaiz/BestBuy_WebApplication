@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="UserAuthenticationSuite" verbose="1" >
+    <test name="LoginFunctionalityTests" >
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.example.tests.authentication.LoginTests"/>
+        </classes>
+
+    </test>
+</suite>
