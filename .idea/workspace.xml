@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="54179d09-7d61-443c-8e82-527142f45f5a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/WebElements/LoginElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/base/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/base/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/authentication/DiagnosticTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/authentication/LoginTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/testng.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="338DZO9cH05yRMRcvHqTJzMetZn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.BestBuy_WebApplication [clean].executor": "Run",
+    "Maven.BestBuy_WebApplication [compile].executor": "Run",
+    "Maven.BestBuy_WebApplication [install].executor": "Run",
+    "Maven.BestBuy_WebApplication [test].executor": "Run",
+    "Maven.BestBuy_WebApplication [validate].executor": "Run",
+    "Maven.BestBuy_WebApplication [verify].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "TestNG.<default>.executor": "Run",
+    "TestNG.C:/Users/zaizd/IdeaProjects/BestBuy_WebApplication/src/test/java/resources/testng.xml.executor": "Run",
+    "TestNG.C:/Users/zaizd/IdeaProjects/BestBuy_WebApplication/testng.xml.executor": "Run",
+    "TestNG.LoginTests.executor": "Run",
+    "TestNG.LoginTests.testValidUserLogin.executor": "Run",
+    "TestNG.Temp Suite.executor": "Run",
+    "TestNG.null..executor": "Run",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zaizd\IdeaProjects\BestBuy_WebApplication\src\test\java\resources" />
+      <recent name="C:\Users\zaizd\IdeaProjects\BestBuy_WebApplication" />
+      <recent name="C:\Users\zaizd\IdeaProjects\BestBuy_WebApplication\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/zaizd/IdeaProjects/BestBuy_WebApplication/src/test/java/resources/testng.xml">
+    <configuration type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BestBuy_WebApplication" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="GROUP" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/zaizd/IdeaProjects/BestBuy_WebApplication/src/test/java/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BestBuy_WebApplication" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTests.testValidUserLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BestBuy_WebApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.tests.authentication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.tests.authentication" />
+      <option name="MAIN_CLASS_NAME" value="com.example.tests.authentication.LoginTests" />
+      <option name="METHOD_NAME" value="testValidUserLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.C:/Users/zaizd/IdeaProjects/BestBuy_WebApplication/src/test/java/resources/testng.xml" />
+      <item itemvalue="TestNG.LoginTests.testValidUserLogin" />
+      <item itemvalue="TestNG.Temp Suite" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/zaizd/IdeaProjects/BestBuy_WebApplication/src/test/java/resources/testng.xml" />
+        <item itemvalue="TestNG.LoginTests.testValidUserLogin" />
+        <item itemvalue="TestNG.Temp Suite" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54179d09-7d61-443c-8e82-527142f45f5a" name="Changes" comment="" />
+      <created>1758689861642</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1758689861642</updated>
+    </task>
+    <servers />
+  </component>
+</project>
