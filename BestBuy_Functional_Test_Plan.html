@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -282,3 +283,289 @@
     </div>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Buy Functional Test Plan</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #fff;
+        }
+        h1, h2, h3 {
+            color: #0046be; /* Best Buy Blue */
+            border-bottom: 2px solid #fec100; /* Best Buy Yellow */
+            padding-bottom: 5px;
+            margin-top: 1.5em;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2em;
+            border-bottom: 3px solid #fec100;
+        }
+        h2 {
+            font-size: 1.5em;
+        }
+        h3 {
+            font-size: 1.2em;
+            border-bottom: 1px solid #eee;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 0.5em;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1em;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+            vertical-align: top;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        .section {
+            margin-bottom: 2em;
+        }
+        a {
+            color: #0046be;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Best Buy Functional Test Plan</h1>
+
+    <div class="section">
+        <h2>Title and Metadata</h2>
+        <ul>
+            <li><strong>Document Title:</strong> BestBuy_Functional_Test_Plan.docx</li>
+            <li><strong>Project:</strong> Software Testing Agent</li>
+            <li><strong>Application Under Test (AUT):</strong> Best Buy E-commerce Site (<a href="https://www.bestbuy.com/">https://www.bestbuy.com/</a>)</li>
+            <li><strong>Author:</strong> Rachid Zaizouny</li>
+            <li><strong>Date:</strong> YYYY-MM-DD</li>
+            <li><strong>Version:</strong> 2.0</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>1.0 Introduction</h2>
+        <p>This Test Plan outlines the functional testing strategy for the Best Buy e-commerce platform, accessible at <a href="https://www.bestbuy.com/">https://www.bestbuy.com/</a>. It defines the scope, approach, and resources needed to validate the platform's core functionalities across key user-facing modules. The purpose is to ensure a seamless, reliable user experience by identifying and mitigating defects in critical workflows. This document focuses on the testing framework, environment, and deliverables to support a release recommendation, without detailing specific test cases.</p>
+    </div>
+
+    <div class="section">
+        <h2>2.0 Test Items</h2>
+        <p>The primary test item is the public-facing production version of the Best Buy website, accessible at <a href="https://www.bestbuy.com/">https://www.bestbuy.com/</a>. Testing will be conducted on the live environment to reflect real-world user interactions. The scope includes all user-visible features and functionalities within the defined modules, ensuring comprehensive validation of the platform's behavior under typical usage conditions.</p>
+    </div>
+
+    <div class="section">
+        <h2>3.0 Functional Scope and Features to Be Tested</h2>
+        <p>This section identifies the modules and functionalities of the Best Buy e-commerce platform targeted for functional testing. The focus is on verifying happy-path scenarios, input validations, error handling, state transitions, data persistence, and user-visible calculations. The modules are prioritized based on their impact on user experience and revenue generation, as detailed below in the specified order:</p>
+        
+        <h3>3.1 Module: User Account</h3>
+        <p>This module encompasses all functionalities related to user authentication and account management. Testing will validate sign-in/sign-out processes, user profile management, address book operations, order history access, saved items management, and session persistence features like "Remember Me." The goal is to ensure secure, accurate handling of user data and seamless access to personalized features.</p>
+        
+        <h3>3.2 Module: Main Menu</h3>
+        <p>The Main Menu module includes the primary navigation structure of the website, typically located in the header. Testing will focus on the menu’s expand/collapse behavior, category links (e.g., Electronics, Appliances), sub-category navigation, and responsiveness across devices. The objective is to confirm that users can intuitively access all product categories and site sections without errors or broken links.</p>
+        
+        <h3>3.3 Module: Search Functionality</h3>
+        <p>This module covers the search bar and associated features for finding products. Testing will address keyword search accuracy, autocomplete suggestions, no-result handling, filter application (e.g., price, brand), sorting options (e.g., price low to high), and result pagination. The aim is to ensure users can efficiently locate desired products with relevant, accurate results.</p>
+        
+        <h3>3.4 Module: Shopping Cart</h3>
+        <p>The Shopping Cart module involves functionalities related to adding, managing, and reviewing items before checkout. Testing will verify item addition from product pages, quantity updates, item removal, subtotal and tax calculations (as displayed), promo code application, and the "Proceed to Checkout" flow. The focus is on ensuring a smooth, error-free cart experience critical to completing purchases.</p>
+        
+        <h3>3.5 Module: Product Details Page (PDP)</h3>
+        <p>This module pertains to individual product pages where users view detailed information. Testing will cover product image display, specification accuracy, pricing (including discounts), variant selection (e.g., size, color), inventory status (ship/pickup availability), warranty options, and "Add to Cart" functionality. The goal is to validate that users receive accurate, comprehensive product data to inform purchase decisions.</p>
+        
+        <h3>3.6 Module: Checkout Process</h3>
+        <p>The Checkout module includes the entire purchase completion flow. Testing will assess guest vs. registered user checkout, shipping address entry and validation, delivery vs. store pickup options, payment method selection and handoff to third-party gateways (initiation and return only), order review, and order confirmation. The objective is to ensure a frictionless, secure transaction process that maximizes conversion rates.</p>
+        
+        <h3>3.7 Module: Deals & Promotions</h3>
+        <p>This module focuses on promotional content and special offers. Testing will validate navigation to sections like "Top Deals," "Deal of the Day," and "Outlet Deals," as well as the correct display of discounted prices, eligibility criteria, and associated links or calls-to-action. The aim is to confirm that marketing initiatives are accurately presented and accessible to users.</p>
+        
+        <h3>3.8 Module: Location Services</h3>
+        <p>This module deals with store location selection and its impact on product availability and pickup options. Testing will verify the accuracy of the displayed store based on user input (ZIP code or geolocation), the ability to change locations, and the reflection of location-specific inventory or delivery options. The focus is on ensuring location-based personalization functions correctly.</p>
+        
+        <h3>3.9 Module: Customer Support & Engagement</h3>
+        <p>This module includes features for user assistance, such as live chat or help resources. Testing will address the visibility and functionality of support icons or links, response initiation, and access to help pages or FAQs. The purpose is to ensure users can easily seek assistance when encountering issues during their journey.</p>
+    </div>
+
+    <div class="section">
+        <h2>4.0 Features Not to Be Tested (Out of Scope)</h2>
+        <p>To maintain focus, the following are explicitly excluded from this functional test plan:</p>
+        <ul>
+            <li>Third-party payment gateway internal processing beyond handoff and return.</li>
+            <li>Backend performance, load, and security testing (non-functional aspects).</li>
+            <li>Internal administrative systems (e.g., CMS, CRM, inventory management).</li>
+            <li>Subsidiary platforms (e.g., "Best Buy Business," "Yardbird").</li>
+            <li>Native mobile apps (testing is limited to responsive web behavior).</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>5.0 Functional Testing Approach</h2>
+        <p>This section outlines the strategy for validating the identified modules. A risk-based approach prioritizes testing based on business impact and user interaction frequency:</p>
+        <h3>5.1 Prioritization</h3>
+        <ul>
+            <li><strong>P1 (Priority 1):</strong> Critical revenue paths—User Account (Sign In), Search Functionality, Shopping Cart, Checkout Process.</li>
+            <li><strong>P2 (Priority 2):</strong> High-impact user features—Main Menu, Product Details Page, Location Services.</li>
+            <li><strong>P3 (Priority 3):</strong> Secondary features—Deals & Promotions, Customer Support & Engagement.</li>
+        </ul>
+        <h3>5.2 Test Design Techniques</h3>
+        <ul>
+            <li>Equivalence Partitioning and Boundary Value Analysis for input fields and quantity limits.</li>
+            <li>Decision Tables and State Transition Testing for multi-step flows like checkout and authentication.</li>
+            <li>Use Case/Scenario Testing for end-to-end journeys (e.g., guest purchase vs. registered user purchase).</li>
+        </ul>
+        <h3>5.3 Data Strategy</h3>
+        <ul>
+            <li><strong>User Accounts:</strong> Valid, invalid, locked, and new accounts for authentication testing.</li>
+            <li><strong>Products:</strong> In-stock, out-of-stock, pickup-eligible, delivery-only, and variant items.</li>
+            <li><strong>Promotions:</strong> Valid, expired, and ineligible promo codes.</li>
+        </ul>
+        <h3>5.4 Execution Strategy</h3>
+        <ul>
+            <li>Daily smoke tests on P1 modules to catch blockers early.</li>
+            <li>Sequential testing: P1 modules first, followed by P2, then P3 with targeted regression.</li>
+            <li>Responsive checks across desktop, tablet, and mobile viewports using browser tools.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>6.0 Entry and Exit Criteria</h2>
+        <h3>6.1 Entry Criteria</h3>
+        <ul>
+            <li>Stable build deployed to the test environment (live site or staging if applicable).</li>
+            <li>Smoke tests pass on core paths (Sign In, Search, Add to Cart, Cart access).</li>
+            <li>Test data prepared (accounts, products, promo codes).</li>
+            <li>Test plan reviewed and approved by stakeholders.</li>
+        </ul>
+        <h3>6.2 Exit Criteria</h3>
+        <ul>
+            <li>100% of P1 module testing executed with ≥95% pass rate.</li>
+            <li>100% of P2 module testing executed with ≥90% pass rate (or documented risk acceptance).</li>
+            <li>All Critical/High severity defects resolved and verified in P1 areas.</li>
+            <li>No showstoppers in User Account, Search Functionality, Shopping Cart, or Checkout Process.</li>
+            <li>Test Summary Report delivered with Go/No-Go recommendation.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>7.0 Item Pass/Fail Criteria</h2>
+        <h3>7.1 Pass</h3>
+        <p>Functionality matches expected behavior, meets requirements, and exhibits no critical or major defects. Minor UI issues not impacting usability may be noted without failing.</p>
+        <h3>7.2 Fail</h3>
+        <p>Actual behavior deviates from expected results, functionality is missing or incorrect, or critical errors block user flows.</p>
+        <h3>7.3 Blocked</h3>
+        <p>Testing cannot proceed due to environmental, data, or build issues.</p>
+    </div>
+
+    <div class="section">
+        <h2>8.0 Suspension Criteria and Resumption Requirements</h2>
+        <h3>8.1 Suspension Criteria</h3>
+        <p>Testing will halt if showstopper defects block critical paths (e.g., inability to sign in or checkout), smoke tests fail on new builds, the environment becomes unstable, or significant unscoped requirement changes occur.</p>
+        <h3>8.2 Resumption Requirements</h3>
+        <p>Testing resumes only after blocking defects are resolved, smoke tests pass on the updated build, the environment is stable, and formal approval to proceed is received from the project manager or QA lead.</p>
+    </div>
+
+    <div class="section">
+        <h2>9.0 Test Deliverables</h2>
+        <ul>
+            <li>Test Plan (this document).</li>
+            <li>Functional Test Case Suites (organized by module and priority).</li>
+            <li>Daily/Weekly Status Reports summarizing execution progress and defect trends.</li>
+            <li>Defect Reports with reproduction steps and evidence (screenshots, videos).</li>
+            <li>Traceability Matrix mapping features to test coverage.</li>
+            <li>Final Test Summary Report with risk assessment and release recommendation.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>10.0 Testing Tasks</h2>
+        <ul>
+            <li>Finalize and review Test Plan.</li>
+            <li>Develop and peer-review test cases per module.</li>
+            <li>Set up and verify test environment/data.</li>
+            <li>Execute tests (Smoke, P1, P2, Regression).</li>
+            <li>Manage defects (log, triage, verify fixes).</li>
+            <li>Generate status reports and final summary.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>11.0 Environmental Needs</h2>
+        <ul>
+            <li><strong>Hardware:</strong> 1x Windows PC, 1x MacBook, 1x iPhone, 1x Android Smartphone, 1x iPad for responsive testing.</li>
+            <li><strong>Software:</strong> Latest versions of Chrome, Firefox, and Safari browsers; test management tool (e.g., Jira).</li>
+            <li><strong>Network:</strong> Stable, high-speed internet connection to access the live site at <a href="https://www.bestbuy.com/">https://www.bestbuy.com/</a>.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>12.0 Responsibilities</h2>
+        <ul>
+            <li><strong>QA Manager (Rachid Zaizouny):</strong> Owns the test strategy, approves scope, manages risks, and provides final sign-off on release recommendations.</li>
+            <li><strong>QA Engineer(s):</strong> Designs and executes test cases, logs and verifies defects, and reports status.</li>
+            <li><strong>Development Team:</strong> Deploys builds, resolves reported defects, and offers technical support during testing.</li>
+            <li><strong>Project Manager:</strong> Ensures resource availability, tracks schedules, and facilitates cross-team communication.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>13.0 Staffing and Training Needs</h2>
+        <p>Staffing includes 1x QA Manager and 1x QA Engineer initially. No formal training is required, assuming proficiency in functional testing principles and familiarity with standard QA tools for test and defect management. Project-specific onboarding will cover environment setup and data handling if needed.</p>
+    </div>
+
+    <div class="section">
+        <h2>14.0 Schedule (ISO Date Placeholders)</h2>
+        <ul>
+            <li><strong>Planning & Test Design:</strong> YYYY-MM-DD to YYYY-MM-DD (5 working days)</li>
+            <li><strong>Cycle 1 Execution (P1 Focus + Daily Smoke):</strong> YYYY-MM-DD to YYYY-MM-DD (10 working days)</li>
+            <li><strong>Cycle 2 Execution (P2 + Targeted Regression):</strong> YYYY-MM-DD to YYYY-MM-DD (7 working days)</li>
+            <li><strong>Final Regression & Reporting:</strong> YYYY-MM-DD to YYYY-MM-DD (3 working days)</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>15.0 Risks and Contingencies</h2>
+        <ul>
+            <li><strong>R-01: Delays in Build or Defect Fixes</strong> (Likelihood: Medium, Impact: High)<br>Mitigation: Maintain open communication channels; prioritize non-blocking test activities during delays.</li>
+            <li><strong>R-02: Unstable Test Environment</strong> (Likelihood: Medium, Impact: High)<br>Mitigation: Establish uptime SLAs; suspend testing per Section 8.0 if instability persists.</li>
+            <li><strong>R-03: Late Requirement Changes</strong> (Likelihood: Low, Impact: High)<br>Mitigation: Enforce a feature freeze deadline; require formal change requests for late modifications.</li>
+            <li><strong>R-04: High Volume of Critical Defects</strong> (Likelihood: Medium, Impact: Medium)<br>Mitigation: Implement rigorous smoke tests; prioritize defect triage daily.</li>
+            <li><strong>R-05: Inadequate Test Data</strong> (Likelihood: Low, Impact: Medium)<br>Mitigation: Collaborate early with development to secure or generate necessary test data.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>16.0 Approvals</h2>
+        <p>The undersigned have reviewed and approved this Test Plan, agreeing to the defined scope, approach, schedule, and responsibilities.</p>
+        <ul>
+            <li><strong>QA Manager:</strong> Rachid Zaizouny (Signature: __________, Date: YYYY-MM-DD)</li>
+            <li><strong>Project Manager:</strong> [Name] (Signature: __________, Date: YYYY-MM-DD)</li>
+            <li><strong>Development Lead:</strong> [Name] (Signature: __________, Date: YYYY-MM-DD)</li>
+        </ul>
+    </div>
+</body>
+</html>
+>>>>>>> a785d1a509d679e78c239cb18720859794c56aba
