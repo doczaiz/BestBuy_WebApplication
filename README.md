@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 Project Description
 The Software Testing Agent project is a dedicated initiative to ensure the quality and reliability of the Best Buy e-commerce platform. This project focuses on functional testing of critical user-facing modules such as User Account, Main Menu, Search Functionality, Shopping Cart, Product Details Page (PDP), Checkout Process, Deals & Promotions, Location Services, and Customer Support & Engagement. Led by Rachid Zaizouny, a seasoned Software Quality Assurance Engineer with over 6 years of experience in manual and automation testing, the project aims to validate seamless user experiences, identify defects in key workflows, and support release recommendations through structured test planning and execution. The scope includes live environment testing on the public-facing site to reflect real-world interactions, ensuring robust performance for end users.
 
@@ -142,4 +142,4 @@ Email: rachid.zaizouny@example.com (placeholder; replace with actual contact if 
 Project Repository (if applicable): If a GitHub or similar repository is established, issues and discussions can be posted there (URL to be provided upon setup).
 Alternative Support: For general inquiries or urgent issues, use the contact form on the Best Buy site at https://www.bestbuy.com/site/customer-service/contact-us if related to site access, though project-specific queries should be directed to the project lead.
 Response times are typically within 48-72 hours for non-urgent matters. Please include "Software Testing Agent - Best Buy" in the subject line for clarity when reaching out via email.
->>>>>>> a785d1a509d679e78c239cb18720859794c56aba
+
