@@ -73,7 +73,7 @@
                     <!--                        Test Fail will be ignored-->
                     <testFailureIgnore>true</testFailureIgnore>
                     <suiteXmlFiles>
-                        <suiteXmlFile>src/test/java/resources/testng.xml</suiteXmlFile>
+                        <suiteXmlFile>src/test/java/resources/testngRunner.xml</suiteXmlFile>
 
                     </suiteXmlFiles>
                 </configuration>

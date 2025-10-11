@@ -16,6 +16,7 @@ public class BaseTest {
     public void setUp(String browser) {
         DriverManager.initDriver(browser);
         DriverManager.getDriver().get("https://www.bestbuy.com/");
+//        DriverManager.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 //        ExtentManager.getInstance(); // initialize report
     }
 

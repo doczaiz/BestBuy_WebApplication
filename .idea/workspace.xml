@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54179d09-7d61-443c-8e82-527142f45f5a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/WebElements/LoginElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/base/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/base/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/authentication/DiagnosticTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/authentication/LoginTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/WebElements/LoginElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/WebElements/LoginElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/base/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/base/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tests/authentication/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/authentication/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +29,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "doczaiz"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/doczaiz/BestBuy_WebApplication.git",
+    "accountId": "341beef5-7ce1-4b51-bb3c-efad58a31b4b"
+  }
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -57,11 +67,12 @@
     "TestNG.C:/Users/zaizd/IdeaProjects/BestBuy_WebApplication/src/test/java/resources/testng.xml.executor": "Run",
     "TestNG.C:/Users/zaizd/IdeaProjects/BestBuy_WebApplication/testng.xml.executor": "Run",
     "TestNG.LoginTests.executor": "Run",
+    "TestNG.LoginTests.testCreateAccount.executor": "Run",
     "TestNG.LoginTests.testValidUserLogin.executor": "Run",
     "TestNG.Temp Suite.executor": "Run",
     "TestNG.null..executor": "Run",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -106,6 +117,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginTests.testCreateAccount" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BestBuy_WebApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.tests.authentication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.tests.authentication" />
+      <option name="MAIN_CLASS_NAME" value="com.example.tests.authentication.LoginTests" />
+      <option name="METHOD_NAME" value="testCreateAccount" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTests.testValidUserLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BestBuy_WebApplication" />
       <extension name="coverage">
@@ -126,12 +155,14 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.C:/Users/zaizd/IdeaProjects/BestBuy_WebApplication/src/test/java/resources/testng.xml" />
+      <item itemvalue="TestNG.LoginTests.testCreateAccount" />
       <item itemvalue="TestNG.LoginTests.testValidUserLogin" />
       <item itemvalue="TestNG.Temp Suite" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/zaizd/IdeaProjects/BestBuy_WebApplication/src/test/java/resources/testng.xml" />
+        <item itemvalue="TestNG.LoginTests.testCreateAccount" />
         <item itemvalue="TestNG.LoginTests.testValidUserLogin" />
         <item itemvalue="TestNG.Temp Suite" />
       </list>
