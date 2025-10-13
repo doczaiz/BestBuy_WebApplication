@@ -39,6 +39,6 @@ public class LoginTests extends BaseTest {
         loginPage.renterPassword();
         loginPage.enterPhone();
         loginPage.clickCreateAccount();
-        Thread.sleep(20000);
+//        Thread.sleep(20000);
     }
 }

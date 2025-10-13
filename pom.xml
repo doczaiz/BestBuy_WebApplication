@@ -42,6 +42,13 @@
                     <artifactId>webdrivermanager</artifactId>
                     <version>5.6.2</version>
                 </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>5.1.2</version>
+        </dependency>
         <!-- SLF4J for logging -->
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -71,11 +78,13 @@
                         <testng.dtd.http>true</testng.dtd.http>
                     </systemPropertyVariables>
                     <!--                        Test Fail will be ignored-->
-                    <testFailureIgnore>true</testFailureIgnore>
+<!--                    <testFailureIgnore>true</testFailureIgnore>-->
                     <suiteXmlFiles>
                         <suiteXmlFile>src/test/java/resources/testngRunner.xml</suiteXmlFile>
 
                     </suiteXmlFiles>
+                    <testFailureIgnore>true</testFailureIgnore>
+                    <reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
                 </configuration>
             </plugin>
         </plugins>
