@@ -17,6 +17,8 @@ public class LoginPage  {
 
     @FindBy(id = signInLinkWebElement)
     private WebElement signInLink;
+    @FindBy(xpath = signInBtnWebElement)
+    private WebElement signInBtn;
 
     @FindBy(xpath = createAccLinkWebElement)
     private WebElement createAccLink;
@@ -29,9 +31,15 @@ public class LoginPage  {
 
     @FindBy(id = emailWebElement)
     private WebElement emailInput;
+    @FindBy(id = userEmailInputWebElement)
+    private WebElement userEmailInput;
+    @FindBy(xpath = continueBtnWebElement)
+    private WebElement continueBtn;
 
     @FindBy(id = passWordWebElement)
     private WebElement passWordInput;
+    @FindBy(id = passWordRadioWebElement)
+    private WebElement passWordRadio;
 
     @FindBy(id = reenterPasswordWebElement)
     private WebElement reenterPasswordInput;
@@ -67,18 +75,15 @@ public class LoginPage  {
 
 
 
-//        createAccLink.click();
     }
     public void enterFirstName(){
         wait.until(ExpectedConditions.elementToBeClickable(firstNameInput)).sendKeys("Adam");
-//        wait.until(ExpectedConditions.visibilityOf(firstNameInput)).sendKeys("Adam");
-//        firstNameInput.sendKeys("Adam");
     }
     public void enterLastName(){
         lastNameInput.sendKeys("sean");
     }
     public void enterEmail(){
-        emailInput.sendKeys("adamsean@maildrop.cc");
+        emailInput.sendKeys("adam.sean@mail.com");
     }
     public void enterPassword() {
         passWordInput.sendKeys("test001VF");
@@ -96,21 +101,23 @@ public class LoginPage  {
     // Actions
     public void clickSignInLink() {
         wait.until(ExpectedConditions.visibilityOf(signInLink)).click();
-//        signInLink.click();
+    }
+    public void clickSignInBtn() {
+        wait.until(ExpectedConditions.visibilityOf(signInBtn)).click();
     }
 
-    public void enterUsername(String username) {
-//        usernameInput.clear();
-//        usernameInput.sendKeys(username);
+    public void enterUserEmail(String userEmail) {
+        wait.until(ExpectedConditions.elementToBeClickable(userEmailInput)).clear();
+        userEmailInput.sendKeys(userEmail);
     }
 
-    public void enterPassword(String password) {
-//        passwordInput.clear();
-//        passwordInput.sendKeys(password);
+    public void enterUserPassword(String password) {
+        wait.until(ExpectedConditions.elementToBeClickable(passWordRadio)).click();
+        passWordInput.sendKeys(password);
     }
 
-    public void clickLoginButton() {
-//        loginButton.click();
+    public void clickContinueButton() {
+        continueBtn.click();
     }
 
     public String getPageTitle() {

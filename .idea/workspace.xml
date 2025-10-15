@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54179d09-7d61-443c-8e82-527142f45f5a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/config/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/util_Report/ExtentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/util_Report/ExtentTestManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/util_Report/TestListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tests/authentication/DiagnosticTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/WebElements/LoginElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/WebElements/LoginElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tests/authentication/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/authentication/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/ExtentReport.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
